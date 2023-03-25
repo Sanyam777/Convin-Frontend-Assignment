@@ -1,0 +1,114 @@
+.card {
+    background-color: #28282B !important;
+    padding: 20px;
+    border-radius: 2px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #FFFFFF;
+}
+
+.card > .top {  
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    gap: 10px;
+    
+}
+
+.card > .top > span {
+    margin-right: auto;
+
+}
+
+.card > .top > svg {
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    transition: 400ms ease-in-out;
+}
+
+
+.card > .top > svg:hover {
+    cursor: pointer;
+    transition: 400ms ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.card > .top input,
+.card > .bottom input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-family: inherit;
+    outline: none;
+    border: 1px solid rgb(191, 191, 191);
+    border-radius: 3px;
+}
+
+.card > .bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+} 
+
+.card > .bottom> span:hover {
+    cursor: pointer;
+}
+
+.card > .bottom > button {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 1rem;
+    font-family: inherit;
+    text-transform: capitalize;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    transition: 300ms ease-in-out;
+}
+
+.card > .bottom > button:hover {
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.card > .bottom > button > svg {
+    margin-left: auto;
+    color: inherit;
+}
+
+.card > .card-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card > .card-btn > button {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 1rem;
+    font-family: inherit;
+    text-transform: capitalize;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    transition: 300ms ease-in-out;
+}
+
+.card > .card-btn > button:hover {
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}

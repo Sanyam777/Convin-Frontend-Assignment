@@ -1,0 +1,69 @@
+.bucket-container {
+    min-width: 400px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bucket-container > .top {
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.bucket-container > .top > svg {
+    margin-left: auto;
+}
+
+.toggle-icon {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    z-index: 1000000;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    background-color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 5px;
+    border-radius: 3px;
+    transition: 300ms ease-in-out;
+}
+
+.toggle-icon:hover {
+    cursor: pointer;
+    background-color: rgb(242, 242, 242);
+}
+
+.bucket-container > .mid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 2px;
+}
+
+.bucket-container > .bottom > button {
+    width: 100%;
+    padding: 10px;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    transition: 300ms ease-in-out;
+}
+
+.bucket-container > .bottom > button:hover{
+    background-color: #28282B;
+    color : #FFFFFF;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
